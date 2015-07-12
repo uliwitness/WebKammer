@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A45A3C1B52C7B500AD1184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A45A3B1B52C7B500AD1184 /* AppDelegate.swift */; };
+		55A45A3E1B52C7B500AD1184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A45A3D1B52C7B500AD1184 /* Images.xcassets */; };
+		55A45A411B52C7B500AD1184 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A45A3F1B52C7B500AD1184 /* MainMenu.xib */; };
+		55A45A4D1B52C7B500AD1184 /* WebKammerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A45A4C1B52C7B500AD1184 /* WebKammerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A45A471B52C7B500AD1184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A45A2E1B52C7B500AD1184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A45A351B52C7B500AD1184;
+			remoteInfo = WebKammer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55A45A361B52C7B500AD1184 /* WebKammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebKammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A45A3A1B52C7B500AD1184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A45A3B1B52C7B500AD1184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55A45A3D1B52C7B500AD1184 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55A45A401B52C7B500AD1184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55A45A461B52C7B500AD1184 /* WebKammerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebKammerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A45A4B1B52C7B500AD1184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A45A4C1B52C7B500AD1184 /* WebKammerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKammerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A45A331B52C7B500AD1184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A45A431B52C7B500AD1184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A45A2D1B52C7B500AD1184 = {
+			isa = PBXGroup;
+			children = (
+				55A45A381B52C7B500AD1184 /* WebKammer */,
+				55A45A491B52C7B500AD1184 /* WebKammerTests */,
+				55A45A371B52C7B500AD1184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A45A371B52C7B500AD1184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A45A361B52C7B500AD1184 /* WebKammer.app */,
+				55A45A461B52C7B500AD1184 /* WebKammerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A45A381B52C7B500AD1184 /* WebKammer */ = {
+			isa = PBXGroup;
+			children = (
+				55A45A3B1B52C7B500AD1184 /* AppDelegate.swift */,
+				55A45A3D1B52C7B500AD1184 /* Images.xcassets */,
+				55A45A3F1B52C7B500AD1184 /* MainMenu.xib */,
+				55A45A391B52C7B500AD1184 /* Supporting Files */,
+			);
+			path = WebKammer;
+			sourceTree = "<group>";
+		};
+		55A45A391B52C7B500AD1184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A45A3A1B52C7B500AD1184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55A45A491B52C7B500AD1184 /* WebKammerTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A45A4C1B52C7B500AD1184 /* WebKammerTests.swift */,
+				55A45A4A1B52C7B500AD1184 /* Supporting Files */,
+			);
+			path = WebKammerTests;
+			sourceTree = "<group>";
+		};
+		55A45A4A1B52C7B500AD1184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A45A4B1B52C7B500AD1184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A45A351B52C7B500AD1184 /* WebKammer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A45A501B52C7B500AD1184 /* Build configuration list for PBXNativeTarget "WebKammer" */;
+			buildPhases = (
+				55A45A321B52C7B500AD1184 /* Sources */,
+				55A45A331B52C7B500AD1184 /* Frameworks */,
+				55A45A341B52C7B500AD1184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebKammer;
+			productName = WebKammer;
+			productReference = 55A45A361B52C7B500AD1184 /* WebKammer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A45A451B52C7B500AD1184 /* WebKammerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A45A531B52C7B500AD1184 /* Build configuration list for PBXNativeTarget "WebKammerTests" */;
+			buildPhases = (
+				55A45A421B52C7B500AD1184 /* Sources */,
+				55A45A431B52C7B500AD1184 /* Frameworks */,
+				55A45A441B52C7B500AD1184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A45A481B52C7B500AD1184 /* PBXTargetDependency */,
+			);
+			name = WebKammerTests;
+			productName = WebKammerTests;
+			productReference = 55A45A461B52C7B500AD1184 /* WebKammerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A45A2E1B52C7B500AD1184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Uli Kusterer";
+				TargetAttributes = {
+					55A45A351B52C7B500AD1184 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					55A45A451B52C7B500AD1184 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 55A45A351B52C7B500AD1184;
+					};
+				};
+			};
+			buildConfigurationList = 55A45A311B52C7B500AD1184 /* Build configuration list for PBXProject "WebKammer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A45A2D1B52C7B500AD1184;
+			productRefGroup = 55A45A371B52C7B500AD1184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A45A351B52C7B500AD1184 /* WebKammer */,
+				55A45A451B52C7B500AD1184 /* WebKammerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A45A341B52C7B500AD1184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A45A3E1B52C7B500AD1184 /* Images.xcassets in Resources */,
+				55A45A411B52C7B500AD1184 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A45A441B52C7B500AD1184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A45A321B52C7B500AD1184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A45A3C1B52C7B500AD1184 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A45A421B52C7B500AD1184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A45A4D1B52C7B500AD1184 /* WebKammerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A45A481B52C7B500AD1184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A45A351B52C7B500AD1184 /* WebKammer */;
+			targetProxy = 55A45A471B52C7B500AD1184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A45A3F1B52C7B500AD1184 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A45A401B52C7B500AD1184 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A45A4E1B52C7B500AD1184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55A45A4F1B52C7B500AD1184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55A45A511B52C7B500AD1184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebKammer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55A45A521B52C7B500AD1184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebKammer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55A45A541B52C7B500AD1184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebKammerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebKammer.app/Contents/MacOS/WebKammer";
+			};
+			name = Debug;
+		};
+		55A45A551B52C7B500AD1184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebKammerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebKammer.app/Contents/MacOS/WebKammer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A45A311B52C7B500AD1184 /* Build configuration list for PBXProject "WebKammer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A45A4E1B52C7B500AD1184 /* Debug */,
+				55A45A4F1B52C7B500AD1184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A45A501B52C7B500AD1184 /* Build configuration list for PBXNativeTarget "WebKammer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A45A511B52C7B500AD1184 /* Debug */,
+				55A45A521B52C7B500AD1184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55A45A531B52C7B500AD1184 /* Build configuration list for PBXNativeTarget "WebKammerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A45A541B52C7B500AD1184 /* Debug */,
+				55A45A551B52C7B500AD1184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A45A2E1B52C7B500AD1184 /* Project object */;
+}
