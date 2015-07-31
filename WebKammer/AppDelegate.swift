@@ -15,7 +15,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        self.window!.level = Int(CGWindowLevelForKey(Int32(kCGDraggingWindowLevelKey)))
+        self.window!.collectionBehavior = NSWindowCollectionBehavior.Stationary | NSWindowCollectionBehavior.FullScreenAuxiliary | NSWindowCollectionBehavior.CanJoinAllSpaces | NSWindowCollectionBehavior.IgnoresCycle
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
