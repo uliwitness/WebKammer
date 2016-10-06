@@ -13,32 +13,23 @@ class WebcamView: NSView {
     
     var webcamLayer : AVCaptureVideoPreviewLayer? = nil;
     
-    override init( frame theFrame: NSRect ) {
-        super.init( frame: theFrame )
-    }
-    
-    required init?(coder theCoder: NSCoder) {
-        super.init( coder: theCoder )
-    }
-    
-    
     override func viewDidMoveToWindow() {
-        var errorReturn : NSError? = nil
-        var captureDevice : AVCaptureDevice = AVCaptureDevice.devicesWithMediaType(AVMediaTypeVideo)[0] as! AVCaptureDevicey
-        println("Device: \(captureDevice)")
-        var captureSession : AVCaptureSession? = AVCaptureSession()
-        println("Session: \(captureSession)")
-        var captureInput : AVCaptureDeviceInput? = AVCaptureDeviceInput(device: captureDevice, error: &errorReturn )
-        if let actualError = errorReturn {
-            println("An Error Occurred: \(actualError)")
+        let captureDevice = AVCaptureDevice.devices(withMediaType: AVMediaTypeVideo)[0] as! AVCaptureDevice
+        Swift.print("Device: \(captureDevice)")
+        let captureSession = AVCaptureSession()
+        Swift.print("Session: \(captureSession)")
+        do{
+            let captureInput = try AVCaptureDeviceInput(device: captureDevice)
+            Swift.print("Session: \(captureInput)")
+            captureSession.addInput(captureInput)
+            webcamLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+            wantsLayer = true
+            layer = webcamLayer
+            webcamLayer!.bounds = bounds;
+            captureSession.startRunning()
+        } catch {
+            Swift.print("An Error Occurred: \(error)")
         }
-        println("Session: \(captureInput)")
-        captureSession!.addInput( captureInput )
-        webcamLayer = AVCaptureVideoPreviewLayer( session: captureSession )
-        self.wantsLayer = true
-        self.layer = webcamLayer
-        webcamLayer!.bounds = self.bounds;
-        captureSession?.startRunning()
     }
     
     override var mouseDownCanMoveWindow : Bool {

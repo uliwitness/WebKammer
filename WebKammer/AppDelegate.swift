@@ -13,16 +13,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
 
-
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
-        self.window!.level = Int(CGWindowLevelForKey(Int32(kCGDraggingWindowLevelKey)))
-        self.window!.collectionBehavior = NSWindowCollectionBehavior.Stationary | NSWindowCollectionBehavior.FullScreenAuxiliary | NSWindowCollectionBehavior.CanJoinAllSpaces | NSWindowCollectionBehavior.IgnoresCycle
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        window.level = Int(CGWindowLevelForKey(.draggingWindow))
+        window.collectionBehavior = [.stationary,.fullScreenAuxiliary, .canJoinAllSpaces, .ignoresCycle]
     }
-
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
-    }
-
 
 }
 
